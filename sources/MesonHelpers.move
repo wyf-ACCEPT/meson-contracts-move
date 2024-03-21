@@ -114,7 +114,7 @@ module Meson::MesonHelpers {
         assert!(amount <= MAX_SWAP_AMOUNT, ESWAP_AMOUNT_OVER_MAX);
     }
 
-    // service fee: Default to 0.1% of amount
+    // service fee: 0.05% or $0.5
     public(friend) fun service_fee(encoded_swap: vector<u8>): u64 {
         let feeByRate = amount_from(encoded_swap) * SERVICE_FEE_RATE / 10000;
         if (feeByRate > SERVICE_FEE_MINIMUM) {
