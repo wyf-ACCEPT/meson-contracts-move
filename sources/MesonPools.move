@@ -6,7 +6,7 @@
 module Meson::MesonPools {
     use std::signer;
     use std::timestamp;
-    use aptos_framework::coin;
+    use supra_framework::coin;
     use Meson::MesonHelpers;
     use Meson::MesonStates;
 

@@ -3,8 +3,8 @@ module Meson::MesonStates {
     use std::table;
     use std::timestamp;
     use std::type_info;
-    use aptos_framework::coin;
-    use aptos_framework::coin::{Coin};
+    use supra_framework::coin;
+    use supra_framework::coin::{Coin};
     use Meson::MesonHelpers;
 
     const DEPLOYER: address = @Meson;

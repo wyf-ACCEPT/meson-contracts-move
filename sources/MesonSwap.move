@@ -6,7 +6,7 @@ module Meson::MesonSwap {
     use std::signer;
     use std::vector;
     use std::timestamp;
-    use aptos_framework::coin;
+    use supra_framework::coin;
     use Meson::MesonHelpers;
     use Meson::MesonStates;
 
